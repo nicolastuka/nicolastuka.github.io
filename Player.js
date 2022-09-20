@@ -11,8 +11,8 @@ class Player extends Actor {
     }
 
     #Move(keyboard) {
-        this.position.x += keyboard.arrKeys[0] * 2;
-        this.position.y += keyboard.arrKeys[1] * 2;
+        this.position.x += keyboard[0] * 2;
+        this.position.y += keyboard[1] * 2;
     }
 
     Update(keyboard) {
